@@ -1,52 +1,17 @@
 [
   {
     "tipo": "human",
-    "contenido": "¿Cuántos pedidos hizo el cliente 102 y cuál fue el total gastado?"
+    "autor": null,
+    "contenido": "Necesito averiguar los datos de ventas y costos operativos de la empresa y calcular el margen de ganancia."
   },
   {
     "tipo": "ai",
-    "contenido": "",
-    "tool_calls": [
-      {
-        "name": "consultar_pedidos",
-        "args": {
-          "cliente_id": 102
-        },
-        "id": "fc_dafc967c-8df3-4017-87d5-b74c6ff05f1e",
-        "type": "tool_call"
-      }
-    ]
-  },
-  {
-    "tipo": "tool",
-    "contenido": "Cliente 102: 3 pedidos registrados, total gastado: $14500.00, último producto comprado: 'Monitor 4K'."
+    "autor": "Investigador",
+    "contenido": "🔍 [Investigador]: Resultados de búsqueda:\n- Ventas: Las ventas netas alcanzaron $150,000 en el Q1.\n- Costos: Los costos operativos totales ascendieron a $45,000."
   },
   {
     "tipo": "ai",
-    "contenido": "El cliente 102 realizó **3 pedidos** y el total gastado asciende a **$14 500,00**."
-  },
-  {
-    "tipo": "human",
-    "contenido": "¿Y cuál fue el último producto que compró?"
-  },
-  {
-    "tipo": "ai",
-    "contenido": "El último producto que compró el cliente 102 fue un **«Monitor 4K»**."
-  },
-  {
-    "tipo": "human",
-    "contenido": "¿Cuántos pedidos hizo el cliente 102 y cuál fue el total gastado?"
-  },
-  {
-    "tipo": "ai",
-    "contenido": "El cliente 102 realizó **3 pedidos** y el total gastado fue **$14 500,00**."
-  },
-  {
-    "tipo": "human",
-    "contenido": "¿Y cuál fue el último producto que compró?"
-  },
-  {
-    "tipo": "ai",
-    "contenido": "El último producto que adquirió el cliente 102 fue un **«Monitor 4K»**."
+    "autor": "Analista",
+    "contenido": "📊 [Analista]: Ganancia neta: $105,000.00 | Margen de ganancia: 70.00%. El margen operativo es de 70.00%, reflejando alta rentabilidad."
   }
 ]
